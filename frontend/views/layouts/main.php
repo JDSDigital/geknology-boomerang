@@ -27,7 +27,7 @@ AppAsset::register($this);
 <?php $this->beginBody() ?>
 
 <div class="wrap">
-    <?php
+    <?php /*
     NavBar::begin([
         'brandLabel' => Yii::$app->name,
         'brandUrl' => Yii::$app->homeUrl,
@@ -57,8 +57,41 @@ AppAsset::register($this);
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => $menuItems,
     ]);
-    NavBar::end();
+    NavBar::end(); */
     ?>
+
+    <nav class="navbar navbar-expand-lg navbar--bold navbar-light bg-default ">
+        <div class="container navbar-container">
+            <!-- Brand/Logo -->
+            <a class="navbar-brand" href="../../index.html">
+                <img src="images/logo/logo-1-b.png" class="" alt="Boomerang">
+            </a>
+            
+            <!-- Navbar links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../../index.html">
+                        Overview
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link ">
+                    Pages
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Demos
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">
+                        Components
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <div class="container">
         <?= Breadcrumbs::widget([
