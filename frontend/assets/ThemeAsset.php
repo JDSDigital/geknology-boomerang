@@ -13,8 +13,11 @@ class ThemeAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
       // Bootstrap
-      'vendor/bootstrap/css/bootstrap.min.css',
-      
+      // 'vendor/bootstrap/css/bootstrap.min.css',
+
+      // Fonts
+      'https://fonts.googleapis.com/css?family=Nunito:400,600,700,800|Roboto:400,500,700',
+
       // Plugins
       'vendor/swiper/css/swiper.min.css',
       'vendor/hamburgers/hamburgers.min.css',

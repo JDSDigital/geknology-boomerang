@@ -60,40 +60,93 @@ AppAsset::register($this);
     NavBar::end(); */
     ?>
 
+        <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar--bold navbar-light bg-default ">
         <div class="container navbar-container">
             <!-- Brand/Logo -->
-            <a class="navbar-brand" href="../../index.html">
-                <img src="images/logo/logo-1-b.png" class="" alt="Boomerang">
-            </a>
+            <?=
+                Html::a(
+                    Html::img('@web/images/logo/logo-1-b.png', ['class' => 'img-responsive', 'alt' => 'Geknology']),
+                    ['site/index'],
+                    ['class' => 'navbar-brand']
+                )
+            ?>
             
-            <!-- Navbar links -->
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="../../index.html">
-                        Overview
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link ">
-                    Pages
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        Demos
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#">
-                        Components
-                    </a>
-                </li>
-            </ul>
+            <div class="d-inline-block">
+                <!-- Navbar toggler  -->
+                <button class="navbar-toggler hamburger hamburger-js hamburger--spring" type="button" data-toggle="collapse" data-target="#navbar_main" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse align-items-center justify-content-end" id="navbar_main">
+
+                <!-- Navbar links -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <?= Html::a('Inicio', ['site/index'], ['class' => 'nav-link']); ?>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <?= Html::a(
+                            'Servicio Técnico',
+                            [''],
+                            [
+                                'class' => 'nav-link dropdown-toggle',
+                                'data-toggle' => 'dropdown',
+                                'aria-haspopup' => 'true',
+                                'aria-expanded' => 'false',
+                            ]); 
+                        ?>
+
+                        <div class="dropdown-menu dropdown-menu-xl py-0 px-0 overflow--hidden" aria-labelledby="navbar_1_dropdown_1">
+                            <div class="list-group rounded">
+                                <?= 
+                                    Html::a(
+                                        '<div class="list-group-content">
+                                            <div class="list-group-heading heading heading-6 mb-1">Servicio Técnico PC</div>
+                                            <p class="text-sm mb-0">Lorem ipsum dolor sit amet consectetur adipiscing eiusmod tempor</p>
+                                        </div>', 
+                                        ['services/pc'], 
+                                        ['class' => 'list-group-item list-group-item-action d-flex align-items-center']
+                                    ); 
+                                ?>
+                                <?= 
+                                    Html::a(
+                                        '<div class="list-group-content">
+                                            <div class="list-group-heading heading heading-6 mb-1">Servicio Técnico MAC</div>
+                                            <p class="text-sm mb-0">Lorem ipsum dolor sit amet consectetur adipiscing eiusmod tempor</p>
+                                        </div>', 
+                                        ['services/mac'], 
+                                        ['class' => 'list-group-item list-group-item-action d-flex align-items-center']
+                                    ); 
+                                ?>
+                            </div>
+                        </div>
+                    </li>
+        
+                    <li class="nav-item">
+                        <?= Html::a('Desarrollo Web', ['site/index'], ['class' => 'nav-link']); ?>
+                    </li>
+                    <li class="nav-item">
+                        <?= Html::a('Contacto', ['site/contact'], ['class' => 'nav-link']); ?>
+                    </li>
+                    <li class="nav-item">
+                        <?= Html::a('Sobre Nosotros', ['site/about'], ['class' => 'nav-link']); ?>
+                    </li>
+                    <li class="nav-item">
+                        <?= Html::a('¡Califícanos!', ['site/index'], ['class' => 'nav-link']); ?>
+                    </li>
+                </ul>
+
+            </div>
+
         </div>
     </nav>
 
-    <div class="container">
+
+    <div class="">
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
