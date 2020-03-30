@@ -2,6 +2,7 @@
 /* @var $this yii\web\View */
 ?>
 
+<!-- Banner -->
 <section class="slice-xl page-title border-bottom has-bg-cover bg-size-cover" style="background-image: url(../images/backgrounds/slider/img-44.jpg);">
     <div class="container mask-container">
         <div class="row justify-content-end">
@@ -19,19 +20,33 @@
         </div>
     </div>
 </section>
+<!-- / Banner -->
+
+<span class="space-xs-xl"></span>
 
 <div class="container">
     <div class="row">
-        <div class="col-lg-9">
-            <section class="text-center">
-            <h5>!Nuestros profesionales se transladan a su oficina o domicilio sin costo adicional para solucionar cualquier tipo de problema que presente!</h5>
+
+        <!-- Servicios -->
+        <div class="col-md-9 mx-auto">
+            <section class="text-center text-uppercase">
+                <h5>!Nuestros <b>profesionales</b> se transladan a su oficina o domicilio <b>sin costo adicional</b> para solucionar cualquier tipo de problema que presente!</h5>
             </section>
-            <section class="slice sct-color-1">
+            <section class="slice sct-color-1 services-boxes">
                 <div class="container">
+                    <!-- Mantencion logica -->
+                    <div class="row row-no-padding">
+                        <div class="col-lg-8 service-title right bg-primary">
+                            <div class="pr-2">
+                                <h3 class="text-uppercase text-light m-1">Mantención Lógica</h3>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="row row-no-padding">
                         <div class="col-lg-6">
                             <div class="block block-image-holder">
-                                <div class="block-image has-solid-shadow-right">
+                                <div class="block-image">
                                     <a href="#">
                                         <img src="../images/prv/blog/img-business-1.jpg" class="img-fluid img-center">
                                     </a>
@@ -39,34 +54,37 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-5 ml-auto align-self-lg-end">
-                            <div class="col-wrapper--spaced">
-                                <ul class="inline-links inline-links--style-2">
-                                    <li>
-                                        Sep 20
-                                    </li>
-
-                                    <li>
-                                        15 min read
-                                    </li>
+                        <div class="col-lg-5 ml-auto left align-self-lg-start">
+                            <div class="py-2 px-4">
+                                <ul>
+                                    <li>Visita a domicilio u oficina.</li>
+                                    <li>Remoción de virus.</li>
+                                    <li>Limpieza de registros y archivos temporales.</li>
+                                    <li>Actualización de aplicaciones.</li>
+                                    <li>Optimización de apps en "inicio automático"</li>
                                 </ul>
-                                <h3 class="heading heading-3 text-normal strong-600 mt-4">
-                                    <a href="#">How to create a sketch plugin with Front-End Technologies</a>
-                                </h3>
-                                <p class="mt-4">
-                                    One morning when Gregor Samsa woke from troubled dreams he found himself transformed in his bed into a horrible vermin he lay on his armour-like back.
-                                </p>
-                                <a href="#" class="link link-xs text-uppercase mt-2">Read more ...</a>
+                                <p>Si desea mantenimiento a su sistema actual, éste es el servicio que usted necesita.</p>
+                                <p class="font-weight-bold">Costo servicio: $19.900</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / Mantencion logica -->
+
+                    <span class="space-xs-lg"></span>
+
+                    <!-- Formateo de notebook - pc -->
+                    <div class="row row-no-padding">
+                        <div class="col-lg-8 ml-auto service-title left bg-primary">
+                            <div class="pl-2">
+                                <h3 class="text-uppercase text-light m-1">Formateo de Notebook - PC</h3>
                             </div>
                         </div>
                     </div>
 
-                    <span class="space-xs-xl"></span>
-
                     <div class="row row-no-padding">
                         <div class="col-lg-6 order-lg-2 ml-lg-auto">
                             <div class="block block-image-holder">
-                                <div class="block-image has-solid-shadow-left">
+                                <div class="block-image">
                                     <a href="#">
                                         <img src="../images/prv/blog/img-business-2.jpg" class="img-fluid img-center">
                                     </a>
@@ -74,139 +92,145 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-5 order-lg-1 align-self-lg-end">
-                            <div class="col-wrapper--spaced">
-                                <ul class="inline-links inline-links--style-2">
-                                    <li>
-                                        Sep 19
-                                    </li>
-
-                                    <li>
-                                        25 min read
-                                    </li>
+                        <div class="col-lg-5 order-lg-1 right align-self-lg-start">
+                            <div class="py-2 px-4">
+                                <ul>
+                                    <li>Visita a domicilio u oficina.</li>
+                                    <li>Respaldo de datos.</li>
+                                    <li>Instalación de Microsoft Office.</li>
+                                    <li>Instalación de controladores.</li>
+                                    <li>Instalación de Antivirus.</li>
                                 </ul>
-                                <h3 class="heading heading-3 text-normal strong-600 mt-4">
-                                    <a href="#">The nine principles of design implementation</a>
-                                </h3>
-                                <p class="mt-4">
-                                    One morning when Gregor Samsa woke from troubled dreams he found himself transformed in his bed into a horrible vermin he lay on his armour-like back.
-                                </p>
-                                <a href="#" class="link link-xs text-uppercase mt-2">Read more ...</a>
+                                <p>Si su sistema presenta lentitud, tarda en partir o en responder como debe, ésta opción es la mejor. Instalar su sistema nuevo, limpio y sin problemas.</p>
+                                <p class="font-weight-bold">Costo servicio: $24.900</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / Formateo de notebook - pc -->
+
+                    <span class="space-xs-lg"></span>
+
+                    <!-- Mantencion termica -->
+                    <div class="row row-no-padding">
+                        <div class="col-lg-8 service-title right bg-primary">
+                            <div class="pr-2">
+                                <h3 class="text-uppercase text-light m-1">Mantención Térmica</h3>
                             </div>
                         </div>
                     </div>
 
-                    <span class="space-xs-xl"></span>
-
                     <div class="row row-no-padding">
                         <div class="col-lg-6">
                             <div class="block block-image-holder">
-                                <div class="block-image has-solid-shadow-right">
+                                <div class="block-image">
                                     <a href="#">
-                                        <img src="../images/prv/blog/img-business-3.jpg" class="img-fluid img-center">
+                                        <img src="../images/prv/blog/img-business-1.jpg" class="img-fluid img-center">
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-5 ml-auto align-self-lg-end">
-                            <div class="col-wrapper--spaced">
-                                <ul class="inline-links inline-links--style-2">
-                                    <li>
-                                        Sep 20
-                                    </li>
-
-                                    <li>
-                                        15 min read
-                                    </li>
+                        <div class="col-lg-5 ml-auto left align-self-lg-start">
+                            <div class="py-2 px-4">
+                                <ul>
+                                    <li>Visita a domicilio u oficina.</li>
+                                    <li>Remoción de virus.</li>
+                                    <li>Limpieza de registros y archivos temporales.</li>
+                                    <li>Actualización de aplicaciones.</li>
+                                    <li>Optimización de apps en "inicio automático"</li>
                                 </ul>
-                                <h3 class="heading heading-3 text-normal strong-600 mt-4">
-                                    <a href="#">How to create a sketch plugin with Front-End Technologies</a>
-                                </h3>
-                                <p class="mt-4">
-                                    One morning when Gregor Samsa woke from troubled dreams he found himself transformed in his bed into a horrible vermin he lay on his armour-like back.
-                                </p>
-                                <a href="#" class="link link-xs text-uppercase mt-2">Read more ...</a>
+                                <p>Si desea mantenimiento a su sistema actual, éste es el servicio que usted necesita.</p>
+                                <p class="font-weight-bold">Costo servicio: $19.900</p>
                             </div>
                         </div>
                     </div>
+                    <!-- / Mantencion termica -->
 
-                    <span class="space-xs-xl"></span>
+                    <span class="space-xs-lg"></span>
+
+                    <!-- Reparacion de bisagras de notebook -->
+                    <div class="row row-no-padding">
+                        <div class="col-lg-8 ml-auto service-title left bg-primary">
+                            <div class="pl-2">
+                                <h3 class="text-uppercase text-light m-1">Formateo de Notebook - PC</h3>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="row row-no-padding">
                         <div class="col-lg-6 order-lg-2 ml-lg-auto">
                             <div class="block block-image-holder">
-                                <div class="block-image has-solid-shadow-left">
+                                <div class="block-image">
                                     <a href="#">
-                                        <img src="../images/prv/blog/img-business-4.jpg" class="img-fluid img-center">
+                                        <img src="../images/prv/blog/img-business-2.jpg" class="img-fluid img-center">
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-5 order-lg-1 align-self-lg-end">
-                            <div class="col-wrapper--spaced">
-                                <ul class="inline-links inline-links--style-2">
-                                    <li>
-                                        Sep 19
-                                    </li>
-
-                                    <li>
-                                        25 min read
-                                    </li>
+                        <div class="col-lg-5 order-lg-1 right align-self-lg-start">
+                            <div class="py-2 px-4">
+                                <ul>
+                                    <li>Visita a domicilio u oficina.</li>
+                                    <li>Respaldo de datos.</li>
+                                    <li>Instalación de Microsoft Office.</li>
+                                    <li>Instalación de controladores.</li>
+                                    <li>Instalación de Antivirus.</li>
                                 </ul>
-                                <h3 class="heading heading-3 text-normal strong-600 mt-4">
-                                    <a href="#">The nine principles of design implementation</a>
-                                </h3>
-                                <p class="mt-4">
-                                    One morning when Gregor Samsa woke from troubled dreams he found himself transformed in his bed into a horrible vermin he lay on his armour-like back.
-                                </p>
-                                <a href="#" class="link link-xs text-uppercase mt-2">Read more ...</a>
+                                <p>Si su sistema presenta lentitud, tarda en partir o en responder como debe, ésta opción es la mejor. Instalar su sistema nuevo, limpio y sin problemas.</p>
+                                <p class="font-weight-bold">Costo servicio: $24.900</p>
                             </div>
                         </div>
                     </div>
+                    <!-- / Reparacion de bisagras de notebook -->
 
-                    <span class="space-xs-xl"></span>
+                    <span class="space-xs-lg"></span>
+
+                    <!-- Cambio de disco duro -->
+                    <div class="row row-no-padding">
+                        <div class="col-lg-8 service-title right bg-primary">
+                            <div class="pr-2">
+                                <h3 class="text-uppercase text-light m-1">Mantención Lógica</h3>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="row row-no-padding">
                         <div class="col-lg-6">
                             <div class="block block-image-holder">
-                                <div class="block-image has-solid-shadow-right">
+                                <div class="block-image">
                                     <a href="#">
-                                        <img src="../images/prv/blog/img-business-5.jpg" class="img-fluid img-center">
+                                        <img src="../images/prv/blog/img-business-1.jpg" class="img-fluid img-center">
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-5 ml-auto align-self-lg-end">
-                            <div class="col-wrapper--spaced">
-                                <ul class="inline-links inline-links--style-2">
-                                    <li>
-                                        Sep 20
-                                    </li>
-
-                                    <li>
-                                        15 min read
-                                    </li>
+                        <div class="col-lg-5 ml-auto left align-self-lg-start">
+                            <div class="py-2 px-4">
+                                <ul>
+                                    <li>Visita a domicilio u oficina.</li>
+                                    <li>Remoción de virus.</li>
+                                    <li>Limpieza de registros y archivos temporales.</li>
+                                    <li>Actualización de aplicaciones.</li>
+                                    <li>Optimización de apps en "inicio automático"</li>
                                 </ul>
-                                <h3 class="heading heading-3 text-normal strong-600 mt-4">
-                                    <a href="#">How to create a sketch plugin with Front-End Technologies</a>
-                                </h3>
-                                <p class="mt-4">
-                                    One morning when Gregor Samsa woke from troubled dreams he found himself transformed in his bed into a horrible vermin he lay on his armour-like back.
-                                </p>
-                                <a href="#" class="link link-xs text-uppercase mt-2">Read more ...</a>
+                                <p>Si desea mantenimiento a su sistema actual, éste es el servicio que usted necesita.</p>
+                                <p class="font-weight-bold">Costo servicio: $19.900</p>
                             </div>
                         </div>
                     </div>
+                    <!-- / Cambio de disco duro -->
+
+                    <span class="space-xs-lg"></span>
+
                 </div>
             </section>
-
         </div>
+        <!-- / Servicios -->
 
+        <!-- Sidebar -->
         <div class="col-lg-3">
-        
             <div class="block block--style-4 block--style-4-v1 bg-white">
                 <div class="block-body">
                     <div class="text-center mt-4">
@@ -227,8 +251,8 @@
                     </div>
                 </div>
             </div>
-
         </div>
+        <!-- / Sidebar -->
 
     </div>
 </div>

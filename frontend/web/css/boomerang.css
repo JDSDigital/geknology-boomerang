@@ -22701,3 +22701,75 @@ pre {
 .icons-holder .mobile {
   font-size: 34px;
 }
+
+@media (min-width: 1200px) {
+  .services-boxes .left {
+    text-align: left !important;
+  }
+  .services-boxes .right {
+    text-align: right !important;
+  }
+}
+
+.services-boxes .service-title {
+  padding: 0 10px;
+}
+
+@media (min-width: 1200px) {
+  .services-boxes .service-title.right {
+    border-top-right-radius: 0.5rem !important;
+    border-bottom-right-radius: 0.5rem !important;
+  }
+  .services-boxes .service-title.left {
+    border-top-left-radius: 0.5rem !important;
+    border-bottom-left-radius: 0.5rem !important;
+  }
+}
+
+.services-boxes ul {
+  list-style-type: none;
+  line-height: 1.8;
+  padding: 0;
+}
+
+@media (min-width: 1200px) {
+  .services-boxes .left li {
+    margin-left: -21px;
+  }
+  .services-boxes .left li::before {
+    font-family: FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #FFDF00;
+    margin-right: 6px;
+    content: "\f005";
+  }
+  .services-boxes .right li {
+    margin-right: -21px;
+  }
+  .services-boxes .right li::after {
+    font-family: FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #FFDF00;
+    margin-left: 6px;
+    content: "\f005";
+  }
+}
+
+@media (max-width: 1199px) {
+  .services-boxes li {
+    margin-left: -21px;
+  }
+  .services-boxes li::before {
+    font-family: FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #FFDF00;
+    margin-right: 6px;
+    content: "\f005";
+  }
+}
