@@ -22,13 +22,13 @@
 </section>
 <!-- / Banner -->
 
-<span class="space-xs-xl"></span>
+<span class="space-xs-md"></span>
 
 <div class="container">
     <div class="row">
 
         <!-- Servicios -->
-        <div class="col-md-9 mx-auto">
+        <div class="col-lg-9 mx-auto">
             <section class="text-center text-uppercase">
                 <h5>!Nuestros <b>profesionales</b> se transladan a su oficina o domicilio <b>sin costo adicional</b> para solucionar cualquier tipo de problema que presente!</h5>
             </section>
@@ -37,8 +37,8 @@
                     <!-- Mantencion logica -->
                     <div class="row row-no-padding">
                         <div class="col-lg-8 service-title right bg-primary">
-                            <div class="pr-2">
-                                <h3 class="text-uppercase text-light m-1">Mantención Lógica</h3>
+                            <div class="pl-2 pr-2">
+                                <h3 class="heading heading-3 text-uppercase text-light m-1">Mantención Lógica</h3>
                             </div>
                         </div>
                     </div>
@@ -75,8 +75,8 @@
                     <!-- Formateo de notebook - pc -->
                     <div class="row row-no-padding">
                         <div class="col-lg-8 ml-auto service-title left bg-primary">
-                            <div class="pl-2">
-                                <h3 class="text-uppercase text-light m-1">Formateo de Notebook - PC</h3>
+                            <div class="pl-2 pr-2">
+                                <h3 class="heading heading-3 text-uppercase text-light m-1">Formateo de Notebook - PC</h3>
                             </div>
                         </div>
                     </div>
@@ -113,8 +113,8 @@
                     <!-- Mantencion termica -->
                     <div class="row row-no-padding">
                         <div class="col-lg-8 service-title right bg-primary">
-                            <div class="pr-2">
-                                <h3 class="text-uppercase text-light m-1">Mantención Térmica</h3>
+                            <div class="pl-2 pr-2">
+                                <h3 class="heading heading-3 text-uppercase text-light m-1">Mantención Térmica</h3>
                             </div>
                         </div>
                     </div>
@@ -151,8 +151,8 @@
                     <!-- Reparacion de bisagras de notebook -->
                     <div class="row row-no-padding">
                         <div class="col-lg-8 ml-auto service-title left bg-primary">
-                            <div class="pl-2">
-                                <h3 class="text-uppercase text-light m-1">Formateo de Notebook - PC</h3>
+                            <div class="pl-2 pr-2">
+                                <h3 class="heading heading-3 text-uppercase text-light m-1">Formateo de Notebook - PC</h3>
                             </div>
                         </div>
                     </div>
@@ -189,8 +189,8 @@
                     <!-- Cambio de disco duro -->
                     <div class="row row-no-padding">
                         <div class="col-lg-8 service-title right bg-primary">
-                            <div class="pr-2">
-                                <h3 class="text-uppercase text-light m-1">Mantención Lógica</h3>
+                            <div class="pl-2 pr-2">
+                                <h3 class="heading heading-3 text-uppercase text-light m-1">Mantención Lógica</h3>
                             </div>
                         </div>
                     </div>
@@ -230,7 +230,14 @@
         <!-- / Servicios -->
 
         <!-- Sidebar -->
-        <div class="col-lg-3">
+        <div class="col-lg-3 mx-auto">
+            <div class="card text-white bg-blue">
+                <div class="card-body">
+                    <h5 class="card-title text-uppercase text-center heading heading-5 heading-inverse">
+                        Lo que opinan nuestros clientes
+                    </h5>
+                </div>
+            </div>
             <div class="block block--style-4 block--style-4-v1 bg-white">
                 <div class="block-body">
                     <div class="text-center mt-4">
@@ -250,6 +257,30 @@
                         <img src="../images/prv/people/person-1-75x75.png">
                     </div>
                 </div>
+            </div>
+
+            <div class="block bg-white">
+                <h3 class="text-uppercase text-center heading heading-5">También contamos con</h3>
+                <div class="card text-white bg-primary">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase text-center heading heading-5 heading-inverse">Reparaciones a nivel de hardware/físico</h5>
+                    </div>
+                </div>
+                <div class="m-3">
+                    <ul class="list-unstyled">
+                        <li><i class="ion ion-checkmark mr-2 text-success"></i>Reparación de placa madre.</li>
+                        <li><i class="ion ion-checkmark mr-2 text-success"></i>Cambio de pantalla.</li>
+                        <li><i class="ion ion-checkmark mr-2 text-success"></i>Cambio de teclado.</li>
+                        <li><i class="ion ion-checkmark mr-2 text-success"></i>Cambio de jack de carga.</li>
+                        <li><i class="ion ion-checkmark mr-2 text-success"></i>Cambio de batería.</li>
+                        <li><i class="ion ion-checkmark mr-2 text-success"></i>Cambio de disco duro.</li>
+                        <li><i class="ion ion-checkmark mr-2 text-success"></i>Aumento de memoria RAM.</li>
+                    </ul>
+                </div>
+                <p class="text-center">TODOS nuestros trabajos son GARANTIZADOS</p>
+                <img src="../images/prv/blog/img-business-1.jpg" class="img-fluid img-center mb-3">
+                <p class="text-center">Trabajamos con TODAS las marcas del mercado.</p>
+                <!-- marcas -->
             </div>
         </div>
         <!-- / Sidebar -->
