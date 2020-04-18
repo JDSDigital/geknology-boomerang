@@ -48,7 +48,7 @@
                             <div class="block block-image-holder">
                                 <div class="block-image">
                                     <a href="#">
-                                        <img src="../images/prv/blog/img-business-1.jpg" class="img-fluid img-center">
+                                        <img src="../images/m1.jpg" class="img-fluid img-center">
                                     </a>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@
                             <div class="block block-image-holder">
                                 <div class="block-image">
                                     <a href="#">
-                                        <img src="../images/prv/blog/img-business-2.jpg" class="img-fluid img-center">
+                                        <img src="../images/m2.jpg" class="img-fluid img-center">
                                     </a>
                                 </div>
                             </div>

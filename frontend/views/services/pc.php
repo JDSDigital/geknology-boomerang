@@ -48,7 +48,7 @@
                             <div class="block block-image-holder">
                                 <div class="block-image">
                                     <a href="#">
-                                        <img src="../images/prv/blog/img-business-1.jpg" class="img-fluid img-center">
+                                        <img src="../images/w1.jpg" class="img-fluid img-center">
                                     </a>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@
                             <div class="block block-image-holder">
                                 <div class="block-image">
                                     <a href="#">
-                                        <img src="../images/prv/blog/img-business-2.jpg" class="img-fluid img-center">
+                                        <img src="../images/w2.jpg" class="img-fluid img-center">
                                     </a>
                                 </div>
                             </div>
@@ -124,7 +124,7 @@
                             <div class="block block-image-holder">
                                 <div class="block-image">
                                     <a href="#">
-                                        <img src="../images/prv/blog/img-business-1.jpg" class="img-fluid img-center">
+                                        <img src="../images/w3.jpg" class="img-fluid img-center">
                                     </a>
                                 </div>
                             </div>
@@ -162,7 +162,7 @@
                             <div class="block block-image-holder">
                                 <div class="block-image">
                                     <a href="#">
-                                        <img src="../images/prv/blog/img-business-2.jpg" class="img-fluid img-center">
+                                        <img src="../images/w4.jpg" class="img-fluid img-center">
                                     </a>
                                 </div>
                             </div>
@@ -200,7 +200,7 @@
                             <div class="block block-image-holder">
                                 <div class="block-image">
                                     <a href="#">
-                                        <img src="../images/prv/blog/img-business-1.jpg" class="img-fluid img-center">
+                                        <img src="../images/w5.jpg" class="img-fluid img-center">
                                     </a>
                                 </div>
                             </div>
@@ -278,7 +278,7 @@
                     </ul>
                 </div>
                 <p class="text-center">TODOS nuestros trabajos son GARANTIZADOS</p>
-                <img src="../images/prv/blog/img-business-1.jpg" class="img-fluid img-center mb-3">
+                <img src="../images/w6.jpg" class="img-fluid img-center mb-3">
                 <p class="text-center">Trabajamos con TODAS las marcas del mercado.</p>
                 <!-- marcas -->
             </div>
