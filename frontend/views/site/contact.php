@@ -41,53 +41,130 @@ $this->title = 'Contacto';
             <span class="section-title-delimiter clearfix d-none"></span>
         </div>
 
-        <span class="clearfix"></span>
-
-        <div class="fluid-paragraph fluid-paragraph-sm c-gray-light strong-300 text-center">
-            Start building fast, beautiful and modern looking websites in no time using our theme.
-        </div>
-
-        <span class="space-xs-xl"></span>
-
         <div class="row justify-content-center">
             <div class="col-lg-6">
-                <!-- Contact form -->
-                <?php $form = ActiveForm::begin(['id' => 'contact-form', 'class' => 'form-default']); ?>
-                
-                    <?= $form->field($model, 'name')
-                        ->textInput(['class' => 'form-control form-control-xl', 'placeholder' => 'Nombre'])
-                        ->label(false) ?>
-
-                    <?= $form->field($model, 'email')
-                        ->textInput(['class' => 'form-control form-control-xl', 'placeholder' => 'Correo'])
-                        ->label(false) ?>
-
-                    <?= $form->field($model, 'subject')
-                        ->textInput(['class' => 'form-control form-control-xl', 'placeholder' => 'Asunto'])
-                        ->label(false) ?>
-
-                    <?= $form->field($model, 'body')
-                        ->textarea([
-                            'rows' => 6,
-                            'class' => 'form-control form-control-xl', 
-                            'placeholder' => 'Mensaje'
-                        ])->label(false) ?>
-
-                    <?= $form->field($model, 'verifyCode')->widget(Captcha::className(), [
-                        'template' => '<div class="row"><div class="col-sm-3">{image}</div><div class="col-sm-9">{input}</div></div>',
-                        'options' => [
-                            'class' => 'form-control form-control-xl',
-                            'placeholder' => 'Código de verificación'
-                        ]
-                    ])->label(false) ?>
-
-                    <div class="form-group">
-                        <?= Html::submitButton('Enviar mensaje', [
-                            'class' => 'btn btn-block btn-styled btn-lg btn-base-1 btn-shadow strong-600 mt-4', 
-                            'name' => 'contact-button'
-                        ]) ?>
+            <!-- <form class="form-default form-material">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group has-floating-label">
+                            <label class="control-label">Your name</label>
+                            <input type="text" class="form-control form-control-lg" placeholder="">
+                            <span class="bar"></span>
+                        </div>
                     </div>
+                </div>
 
+                <div class="mt-4">
+                    <button type="submit" class="btn btn-styled btn-base-1 btn-circle">
+                        Send message
+                    </button>
+                </div>
+            </form> -->
+                <!-- Contact form -->
+                <?php $form = ActiveForm::begin([
+                    'id' => 'contact-form', 
+                    'options' => [
+                        'class' => 'form-default form-material'
+                    ],
+                ]); ?>
+                    <div class="row">
+                        <div class="col-12">
+                            <?= $form->field($model, 'name', [
+                                'template' => '<div class="form-group has-floating-label">
+                                    {label}
+                                    {input}
+                                    <span class="bar"></span>
+                                </div>',
+                                'labelOptions' => [
+                                    'class' => 'control-label'
+                                ]
+                            ])->textInput([
+                                'class' => 'form-control form-control-lg',
+                            ]) ?>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+
+                            <?= $form->field($model, 'email', [
+                                'template' => '<div class="form-group has-floating-label">
+                                    {label}
+                                    {input}
+                                    <span class="bar"></span>
+                                </div>',
+                                'labelOptions' => [
+                                    'class' => 'control-label'
+                                ]
+                            ])->textInput([
+                                'class' => 'form-control form-control-lg',
+                            ]) ?>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <?= $form->field($model, 'subject', [
+                                'template' => '<div class="form-group has-floating-label">
+                                    {label}
+                                    {input}
+                                    <span class="bar"></span>
+                                </div>',
+                                'labelOptions' => [
+                                    'class' => 'control-label'
+                                ]
+                            ])->textInput([
+                                'class' => 'form-control form-control-lg',
+                            ]) ?>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <?= $form->field($model, 'body', [
+                                'template' => '<div class="form-group has-floating-label">
+                                    {label}
+                                    {input}
+                                    <span class="bar"></span>
+                                </div>',
+                                'labelOptions' => [
+                                    'class' => 'control-label'
+                                ]
+                            ])->textarea([
+                                'rows' => 6,
+                                'class' => 'form-control form-control-lg',
+                            ]) ?>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <?= $form->field($model, 'verifyCode', [
+                                'template' => '<div class="form-group has-floating-label">
+                                    {label}
+                                    {input}
+                                    <span class="bar"></span>
+                                </div>',
+                                'labelOptions' => [
+                                    'class' => 'control-label'
+                                ]
+                            ])->widget(Captcha::className(), [
+                                'template' => '<div class="row">
+                                    <div class="col-sm-9">{input}</div>
+                                    <div class="col-sm-3">{image}</div>
+                                </div>',
+                                'options' => [
+                                    'class' => 'form-control form-control-xl',
+                                ]
+                            ]) ?>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <?= Html::submitButton('Enviar mensaje', [
+                                    'class' => 'btn btn-styled btn-base-1 btn-circle', 
+                                    'name' => 'contact-button'
+                                ]) ?>
+                            </div>
+                        </div>
+                    </div>
                 <?php ActiveForm::end(); ?>
             </div>
         </div>

@@ -163,7 +163,7 @@ $this->title = 'My Yii Application';
 </section>
 
 <!-- Nuestros Clientes -->
-<section class="slice pb-0 sct-color-1">
+<section class="slice pb-0 sct-color-1 mb-5">
     <div class="container">
         <div class="text-center">
             <h3 class="heading heading-3 strong-500">

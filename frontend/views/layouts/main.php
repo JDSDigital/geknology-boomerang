@@ -85,10 +85,13 @@ AppAsset::register($this);
 
                 <!-- Navbar links -->
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <?= Html::a('Inicio', ['site/index'], ['class' => 'nav-link']); ?>
+                    <li class="nav-item <?= (Yii::$app->controller->id == 'site' && Yii::$app->controller->action->id == 'index') ? 'active' : '' ?>">
+                        <?= Html::a('Inicio', 
+                            ['site/index'], 
+                            ['class' => 'nav-link']); 
+                        ?>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown <?= (Yii::$app->controller->id == 'services') ? 'active' : '' ?>">
                         <?= Html::a(
                             'Servicio Técnico',
                             [''],
@@ -126,16 +129,16 @@ AppAsset::register($this);
                         </div>
                     </li>
         
-                    <li class="nav-item">
-                        <?= Html::a('Desarrollo Web', ['site/index'], ['class' => 'nav-link']); ?>
+                    <li class="nav-item <?= (Yii::$app->controller->action->id == 'web') ? 'active' : '' ?>">
+                        <?= Html::a('Desarrollo Web', ['site/web'], ['class' => 'nav-link']); ?>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item <?= (Yii::$app->controller->action->id == 'contact') ? 'active' : '' ?>">
                         <?= Html::a('Contacto', ['site/contact'], ['class' => 'nav-link']); ?>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item <?= (Yii::$app->controller->action->id == 'about') ? 'active' : '' ?>">
                         <?= Html::a('Sobre Nosotros', ['site/about'], ['class' => 'nav-link']); ?>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item <?= (Yii::$app->controller->action->id == 'rating') ? 'active' : '' ?>">
                         <?= Html::a('¡Califícanos!', ['site/index'], ['class' => 'nav-link']); ?>
                     </li>
                 </ul>

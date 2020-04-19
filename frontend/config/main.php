@@ -48,6 +48,7 @@ return [
                 '' => 'site/index',
                 'contacto' => 'site/contact',
                 'sobre-nosotros' => 'site/about',
+                'desarrollo-web' => 'site/web',
                 'servicio-tecnico/pc' => 'services/pc',
                 'servicio-tecnico/mac' => 'services/mac',
             ],
