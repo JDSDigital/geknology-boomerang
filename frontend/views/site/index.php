@@ -66,7 +66,7 @@ $this->title = 'My Yii Application';
 
         <span class="clearfix"></span>
 
-        <div class="row row-sm-padding cols-xs-space cols-sm-space cols-md-space">
+        <div class="row justify-content-sm-center row-sm-padding cols-xs-space cols-sm-space cols-md-space">
             <div class="col-lg-3 col-md-6">
                 <div class="block block-image-holder animate-this animate--hover-zoom animate--hover-show-btn">
                     <div class="block-image">
@@ -77,7 +77,7 @@ $this->title = 'My Yii Application';
                     <div class="block-info block-info-over block-info-over--style-1 block-info-over--dark-gradient overflow-visible">
                         <div class="block-info-inner animate-translate--up">
                             <div class="text-center">
-                                <a href="#" class="heading heading-4 strong-500 mb-0 c-white">The secret of life</a>
+                                <a href="#" class="heading heading-4 strong-500 mb-0 c-white">Soporte PC</a>
                                 <span class="clearfix"></span>
                                 <small class="text-uppercase c-white">Graphics</small>
                             </div>
@@ -100,7 +100,7 @@ $this->title = 'My Yii Application';
                     <div class="block-info block-info-over block-info-over--style-1 block-info-over--dark-gradient overflow-visible">
                         <div class="block-info-inner animate-translate--up">
                             <div class="text-center">
-                                <a href="#" class="heading heading-4 strong-500 mb-0 c-white">The secret of life</a>
+                                <a href="#" class="heading heading-4 strong-500 mb-0 c-white">Soporte MAC</a>
                                 <span class="clearfix"></span>
                                 <small class="text-uppercase c-white">Graphics</small>
                             </div>
@@ -123,7 +123,7 @@ $this->title = 'My Yii Application';
                     <div class="block-info block-info-over block-info-over--style-1 block-info-over--dark-gradient overflow-visible">
                         <div class="block-info-inner animate-translate--up">
                             <div class="text-center">
-                                <a href="#" class="heading heading-4 strong-500 mb-0 c-white">The secret of life</a>
+                                <a href="#" class="heading heading-4 strong-500 mb-0 c-white">Desarrollo Web</a>
                                 <span class="clearfix"></span>
                                 <small class="text-uppercase c-white">Graphics</small>
                             </div>
@@ -136,28 +136,6 @@ $this->title = 'My Yii Application';
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6">
-                <div class="block block-image-holder animate-this animate--hover-zoom animate--hover-show-btn">
-                    <div class="block-image">
-                        <a href="#">
-                            <img src="./images/prv/travel/img-promo-4.jpg">
-                        </a>
-                    </div>
-                    <div class="block-info block-info-over block-info-over--style-1 block-info-over--dark-gradient overflow-visible">
-                        <div class="block-info-inner animate-translate--up">
-                            <div class="text-center">
-                                <a href="#" class="heading heading-4 strong-500 mb-0 c-white">The secret of life</a>
-                                <span class="clearfix"></span>
-                                <small class="text-uppercase c-white">Graphics</small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="animate--hover-button">
-                        <a href="#" class="btn btn-styled btn-sm btn-base-2 btn-circle">See offers</a>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </section>
