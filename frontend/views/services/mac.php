@@ -58,8 +58,8 @@ $this->title = 'Servicio técnico MAC';
                             </div>
                         </div>
 
-                        <div class="col-lg-5 ml-auto left align-self-lg-start">
-                            <div class="py-2 px-4">
+                        <div class="col-lg-6 ml-auto left align-self-lg-start">
+                            <div class="py-2 px-5">
                                 <ul>
                                     <li>Visita a domicilio u oficina.</li>
                                     <li>Respaldo de datos.</li>
@@ -96,8 +96,8 @@ $this->title = 'Servicio técnico MAC';
                             </div>
                         </div>
 
-                        <div class="col-lg-5 order-lg-1 right align-self-lg-start">
-                            <div class="py-2 px-4">
+                        <div class="col-lg-6 order-lg-1 right align-self-lg-start">
+                            <div class="py-2 px-5">
                                 <ul>
                                     <li>Visita a domicilio u oficina.</li>
                                     <li>Remoción de polvo y suciedad.</li>
@@ -133,8 +133,8 @@ $this->title = 'Servicio técnico MAC';
                             </div>
                         </div>
 
-                        <div class="col-lg-5 ml-auto left align-self-lg-start">
-                            <div class="py-2 px-4">
+                        <div class="col-lg-6 ml-auto left align-self-lg-start">
+                            <div class="py-2 px-5">
                                 <ul>
                                     <li>Visita a domicilio u oficina.</li>
                                     <li>Instalación de unidad de estado sólido (SSD).</li>
