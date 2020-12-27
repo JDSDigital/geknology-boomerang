@@ -14,5 +14,5 @@ gulp.task('frontend', () => {
 });
 
 gulp.task('default', function () {
-  gulp.watch('./frontend/scss/*.scss', gulp.parallel('frontend'));
+  gulp.watch('./frontend/scss/**/*.scss', gulp.parallel('frontend'));
 });

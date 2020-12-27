@@ -68,4 +68,14 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+    /**
+     * Displays web design page.
+     *
+     * @return mixed
+     */
+    public function actionWeb()
+    {
+        return $this->render('web');
+    }
 }

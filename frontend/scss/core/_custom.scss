@@ -1,1 +1,133 @@
 // Put here all the styles you want to add or edit
+
+// A map of breakpoints.
+$breakpoints: (
+  xs: 576px,
+  sm: 768px,
+  md: 992px,
+  lg: 1200px
+);
+
+@mixin fontawesome-icon {
+  font-family: FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Respond above.
+@mixin respond-above($breakpoint) {
+
+  // If the breakpoint exists in the map.
+  @if map-has-key($breakpoints, $breakpoint) {
+
+    // Get the breakpoint value.
+    $breakpoint-value: map-get($breakpoints, $breakpoint);
+
+    // Write the media query.
+    @media (min-width: $breakpoint-value) {
+      @content;
+    }
+
+  // If the breakpoint doesn't exist in the map.
+  } @else {
+
+    // Log a warning.
+    @warn 'Invalid breakpoint: #{$breakpoint}.';
+  }
+}
+
+// Respond below.
+@mixin respond-below($breakpoint) {
+
+  // If the breakpoint exists in the map.
+  @if map-has-key($breakpoints, $breakpoint) {
+
+    // Get the breakpoint value.
+    $breakpoint-value: map-get($breakpoints, $breakpoint);
+
+    // Write the media query.
+    @media (max-width: ($breakpoint-value - 1)) {
+      @content;
+    }
+
+  // If the breakpoint doesn't exist in the map.
+  } @else {
+
+    // Log a warning.
+    @warn 'Invalid breakpoint: #{$breakpoint}.';
+  }
+}
+
+.services-boxes {
+
+  @include respond-above(lg) {
+    .left {
+      text-align: left !important;
+    }
+    .right {
+      text-align: right !important;
+    }
+  }
+
+  .service-title {
+
+    padding: 0 10px;
+
+    @include respond-above(lg) {
+      &.right {
+        border-top-right-radius: 0.5rem !important;
+        border-bottom-right-radius: 0.5rem !important;
+      }
+      &.left {
+        border-top-left-radius: 0.5rem !important;
+        border-bottom-left-radius: 0.5rem !important;
+      }
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    line-height: 1.8;
+    padding: 0;
+  }
+
+  @include respond-above(lg) {
+    .left {
+      li {
+        margin-left: -21px;
+      }
+      li::before {
+        @include fontawesome-icon();
+        color: #FFDF00;
+        margin-right: 6px;
+        content: "\f005";
+      }
+    }
+
+    .right {
+      li {
+        margin-right: -21px;
+      }
+      li::after {
+        @include fontawesome-icon();
+        color: #FFDF00;
+        margin-left: 6px;
+        content: "\f005";
+      }
+    }
+  }
+
+  @include respond-below(lg) {
+    li {
+      margin-left: -21px;
+    }
+    li::before {
+      @include fontawesome-icon();
+      color: #FFDF00;
+      margin-right: 6px;
+      content: "\f005";
+    }
+  }
+
+}
