@@ -11,7 +11,12 @@ class ServicesController extends \yii\web\Controller
 
     public function actionPc()
     {
-        return $this->render('pc');
+        $dir = './images/brands/';
+        $brands = glob($dir . "*");
+        
+        return $this->render('pc', [
+            "brands" => $brands
+        ]);
     }
 
 }

@@ -33,7 +33,12 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $dir = './images/clients/';
+        $clients = glob($dir . "*");
+
+        return $this->render('index', [
+            'clients' => $clients
+        ]);
     }
 
     /**

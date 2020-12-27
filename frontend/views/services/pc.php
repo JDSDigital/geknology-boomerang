@@ -7,7 +7,7 @@ $this->title = 'Servicio técnico PC';
 ?>
 
 <!-- Banner -->
-<section class="slice-xl page-title border-bottom has-bg-cover bg-size-cover" style="background-image: url(../images/backgrounds/slider/img-44.jpg);">
+<section class="slice-xl page-title border-bottom has-bg-cover bg-size-cover" style="background-image: url(../images/banners/banner-pc.jpg);">
     <div class="container mask-container">
         <div class="row justify-content-end">
             <div class="col-md-6 text-center">
@@ -52,7 +52,7 @@ $this->title = 'Servicio técnico PC';
                             <div class="block block-image-holder">
                                 <div class="block-image">
                                     <a href="#">
-                                        <img src="../images/w1.jpg" class="img-fluid img-center">
+                                        <img src="../images/support/mant-logica.jpg" class="img-fluid img-center">
                                     </a>
                                 </div>
                             </div>
@@ -61,11 +61,11 @@ $this->title = 'Servicio técnico PC';
                         <div class="col-lg-6 ml-auto left align-self-lg-start">
                             <div class="py-2 px-5">
                                 <ul>
-                                    <li>Visita a domicilio u oficina.</li>
-                                    <li>Remoción de virus.</li>
-                                    <li>Limpieza de registros y archivos temporales.</li>
-                                    <li>Actualización de aplicaciones.</li>
-                                    <li>Optimización de apps en "inicio automático"</li>
+                                    <li><strong>Visita a domicilio u oficina.</strong></li>
+                                    <li><strong>Remoción de virus.</strong></li>
+                                    <li><strong>Limpieza de registros y archivos temporales.</strong></li>
+                                    <li><strong>Actualización de aplicaciones.</strong></li>
+                                    <li><strong>Optimización de apps en "inicio automático"</strong></li>
                                 </ul>
                                 <p>Si desea mantenimiento a su sistema actual, éste es el servicio que usted necesita.</p>
                                 <p class="font-weight-bold">Costo servicio: $19.900</p>
@@ -90,7 +90,7 @@ $this->title = 'Servicio técnico PC';
                             <div class="block block-image-holder">
                                 <div class="block-image">
                                     <a href="#">
-                                        <img src="../images/w2.jpg" class="img-fluid img-center">
+                                        <img src="../images/support/formateo.jpg" class="img-fluid img-center">
                                     </a>
                                 </div>
                             </div>
@@ -99,11 +99,11 @@ $this->title = 'Servicio técnico PC';
                         <div class="col-lg-6 order-lg-1 right align-self-lg-start">
                             <div class="py-2 px-5">
                                 <ul>
-                                    <li>Visita a domicilio u oficina.</li>
-                                    <li>Respaldo de datos.</li>
-                                    <li>Instalación de Microsoft Office.</li>
-                                    <li>Instalación de controladores.</li>
-                                    <li>Instalación de Antivirus.</li>
+                                    <li><strong>Visita a domicilio u oficina.</strong></li>
+                                    <li><strong>Respaldo de datos.</strong></li>
+                                    <li><strong>Instalación de Microsoft Office.</strong></li>
+                                    <li><strong>Instalación de controladores.</strong></li>
+                                    <li><strong>Instalación de Antivirus.</strong></li>
                                 </ul>
                                 <p>Si su sistema presenta lentitud, tarda en partir o en responder como debe, ésta opción es la mejor. Instalar su sistema nuevo, limpio y sin problemas.</p>
                                 <p class="font-weight-bold">Costo servicio: $24.900</p>
@@ -128,7 +128,7 @@ $this->title = 'Servicio técnico PC';
                             <div class="block block-image-holder">
                                 <div class="block-image">
                                     <a href="#">
-                                        <img src="../images/w3.jpg" class="img-fluid img-center">
+                                        <img src="../images/support/mant-termica-pc.jpg" class="img-fluid img-center">
                                     </a>
                                 </div>
                             </div>
@@ -137,11 +137,11 @@ $this->title = 'Servicio técnico PC';
                         <div class="col-lg-6 ml-auto left align-self-lg-start">
                             <div class="py-2 px-5">
                                 <ul>
-                                    <li>Visita a domicilio u oficina.</li>
-                                    <li>Remoción de polvo y suciedad.</li>
-                                    <li>Limpieza y lubricación de ventiladores.</li>
-                                    <li>Cambio de pasta térmica disipadora.</li>
-                                    <li>Optimización de apps en "inicio automático"</li>
+                                    <li><strong>Visita a domicilio u oficina.</strong></li>
+                                    <li><strong>Remoción de polvo y suciedad.</strong></li>
+                                    <li><strong>Limpieza y lubricación de ventiladores.</strong></li>
+                                    <li><strong>Cambio de pasta térmica disipadora.</strong></li>
+                                    <!-- <li><strong>Optimización de apps en "inicio automático"</strong></li> -->
                                 </ul>
                                 <p>Cuando el equipo sufre de recalentamiento, FPS bajos, sonidos extraños en ventiladores o está en un entorno de mucho polvo, necesita mantención térmica ¡URGENTE!.</p>
                                 <p class="font-weight-bold">Costo PC: $29.900 - Notebook: $39.900</p>
@@ -166,7 +166,7 @@ $this->title = 'Servicio técnico PC';
                             <div class="block block-image-holder">
                                 <div class="block-image">
                                     <a href="#">
-                                        <img src="../images/w4.jpg" class="img-fluid img-center">
+                                        <img src="../images/support/bisagras.jpg" class="img-fluid img-center">
                                     </a>
                                 </div>
                             </div>
@@ -175,7 +175,7 @@ $this->title = 'Servicio técnico PC';
                         <div class="col-lg-6 order-lg-1 right align-self-lg-start">
                             <div class="py-2 px-5">
                                 <ul>
-                                    <li>Visita a domicilio u oficina.</li>
+                                    <li><strong>Visita a domicilio u oficina.</strong></li>
                                 </ul>
                                 <p>Falla común en muchos modelos de notebooks. SIEMPRE tienen reparación, trabajamos con todos los equipos y todas las marcas.</p>
                                 <p>Si la carcasa de tu notebook se abre o levanta al abrir y cerrar el equipo, éste es el servicio para ti.</p>
@@ -202,7 +202,7 @@ $this->title = 'Servicio técnico PC';
                             <div class="block block-image-holder">
                                 <div class="block-image">
                                     <a href="#">
-                                        <img src="../images/w5.jpg" class="img-fluid img-center">
+                                        <img src="../images/support/ssd.jpg" class="img-fluid img-center">
                                     </a>
                                 </div>
                             </div>
@@ -211,12 +211,13 @@ $this->title = 'Servicio técnico PC';
                         <div class="col-lg-6 ml-auto left align-self-lg-start">
                             <div class="py-2 px-5">
                                 <ul>
-                                    <li>Visita a domicilio u oficina.</li>
-                                    <li>Instalacion de unidad de estado sólido (SSD).</li>
-                                    <li>Ó instalación de disco duro mecánico (HDD)</li>
-                                    <li>Instalación de MS Windows y aplicaciones</li>
+                                    <li><strong>Visita a domicilio u oficina.</strong></li>
+                                    <li><strong>Instalacion de unidad de estado sólido (SSD).</strong></li>
+                                    <li><strong>Ó instalación de disco duro mecánico (HDD)</strong></li>
+                                    <li><strong>Instalación de MS Windows y aplicaciones</strong></li>
                                 </ul>
-                                <p>¿Quieres optimizar tu equipo actual? Instalando un SSD te garantizamos: Aumento de rapidez, menos consumo de energía, menos producción de calor, menos pero, más resistente y sin ruidos.</p>
+                                <p>¿Quieres optimizar tu equipo actual?</p>
+                                <p>Instalando un SSD te garantizamos: Aumento de rapidez, menos consumo de energía, menos producción de calor, menos pero, más resistente y sin ruidos.</p>
                                 <p class="font-weight-bold">Costo servicio: $59.900</p>
                             </div>
                         </div>
@@ -282,6 +283,13 @@ $this->title = 'Servicio técnico PC';
                 <img src="../images/w6.jpg" class="img-fluid img-center mb-3">
                 <p class="text-center">Trabajamos con TODAS las marcas del mercado.</p>
                 <!-- marcas -->
+                <div class="row">
+                <?php foreach ($brands as $brand) : ?>
+                    <div class="col-6">
+                        <img class="img-fluid" src=".<?= $brand ?>"/>
+                    </div>
+                <?php endforeach; ?>
+                </div>
             </div>
         </div>
         <!-- / Sidebar -->

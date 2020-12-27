@@ -7,7 +7,7 @@ $this->title = 'Servicio técnico MAC';
 ?>
 
 <!-- Banner -->
-<section class="slice-xl page-title border-bottom has-bg-cover bg-size-cover" style="background-image: url(../images/backgrounds/slider/img-44.jpg);">
+<section class="slice-xl page-title border-bottom has-bg-cover bg-size-cover" style="background-image: url(../images/banners/banner-mac.jpg);">
     <div class="container mask-container">
         <div class="row justify-content-end">
             <div class="col-md-6 text-center">
@@ -52,7 +52,7 @@ $this->title = 'Servicio técnico MAC';
                             <div class="block block-image-holder">
                                 <div class="block-image">
                                     <a href="#">
-                                        <img src="../images/m1.jpg" class="img-fluid img-center">
+                                        <img src="../images/support/formateo-mac.jpg" class="img-fluid img-center">
                                     </a>
                                 </div>
                             </div>
@@ -61,11 +61,11 @@ $this->title = 'Servicio técnico MAC';
                         <div class="col-lg-6 ml-auto left align-self-lg-start">
                             <div class="py-2 px-5">
                                 <ul>
-                                    <li>Visita a domicilio u oficina.</li>
-                                    <li>Respaldo de datos.</li>
-                                    <li>Instalacion OSX.</li>
-                                    <li>Instalacion de Microsoft Office.</li>
-                                    <li>Optimización de apps en "inicio automático"</li>
+                                    <li><strong>Visita a domicilio u oficina.</strong></li>
+                                    <li><strong>Respaldo de datos.</strong></li>
+                                    <li><strong>Instalacion OSX.</strong></li>
+                                    <li><strong>Instalacion de Microsoft Office.</strong></li>
+                                    <!-- <li><strong>Optimización de apps en "inicio automático"</strong></li> -->
                                 </ul>
                                 <p>Si su sistema presenta lentitud, tarda en partir o no responde como debe, ésta opción es la mejor. Instalar un sistema nuevo, limpio y sin problemas.</p>
                                 <p class="font-weight-bold">Costo servicio: $34.900</p>
@@ -90,7 +90,7 @@ $this->title = 'Servicio técnico MAC';
                             <div class="block block-image-holder">
                                 <div class="block-image">
                                     <a href="#">
-                                        <img src="../images/m2.jpg" class="img-fluid img-center">
+                                        <img src="../images/support/mant-termica-mac.jpg" class="img-fluid img-center">
                                     </a>
                                 </div>
                             </div>
@@ -99,10 +99,10 @@ $this->title = 'Servicio técnico MAC';
                         <div class="col-lg-6 order-lg-1 right align-self-lg-start">
                             <div class="py-2 px-5">
                                 <ul>
-                                    <li>Visita a domicilio u oficina.</li>
-                                    <li>Remoción de polvo y suciedad.</li>
-                                    <li>Limpieza y lubricación de ventiladores.</li>
-                                    <li>Cambio de pasta térmica disipadora.</li>
+                                    <li><strong>Visita a domicilio u oficina.</strong></li>
+                                    <li><strong>Remoción de polvo y suciedad.</strong></li>
+                                    <li><strong>Limpieza y lubricación de ventiladores.</strong></li>
+                                    <li><strong>Cambio de pasta térmica disipadora.</strong></li>
                                 </ul>
                                 <p>Cuando el equipo sufre de recalentamiento, FPS bajos, sonidos extraños en ventiladores o está en un entorno de mucho polvo, necesita mantención térmica ¡URGENTE!.</p>
                                 <p class="font-weight-bold">Costo servicio: $39.900</p>
@@ -127,7 +127,7 @@ $this->title = 'Servicio técnico MAC';
                             <div class="block block-image-holder">
                                 <div class="block-image">
                                     <a href="#">
-                                        <img src="../images/prv/blog/img-business-1.jpg" class="img-fluid img-center">
+                                        <img src="../images/support/cambio-hdd-mac.jpg" class="img-fluid img-center">
                                     </a>
                                 </div>
                             </div>
@@ -136,10 +136,10 @@ $this->title = 'Servicio técnico MAC';
                         <div class="col-lg-6 ml-auto left align-self-lg-start">
                             <div class="py-2 px-5">
                                 <ul>
-                                    <li>Visita a domicilio u oficina.</li>
-                                    <li>Instalación de unidad de estado sólido (SSD).</li>
-                                    <li>Ó instalacion de disco duro mecánico (HDD).</li>
-                                    <li>Instalacion de OSX y Microsoft Office.</li>
+                                    <li><strong>Visita a domicilio u oficina.</strong></li>
+                                    <li><strong>Instalación de unidad de estado sólido (SSD).</strong></li>
+                                    <li><strong>Ó instalacion de disco duro mecánico (HDD).</strong></li>
+                                    <li><strong>Instalacion de OSX y Microsoft Office.</strong></li>
                                 </ul>
                                 <p>¿Quieres optimizar tu equipo actual? Instalando un SSD te garantizamos: Aumento de rapidez, menos consumo de energía, menos producción de calor, menos peso, más resistente y sin ruidos.</p>
                                 <p class="font-weight-bold">Costo servicio: $69.900</p>
@@ -194,13 +194,13 @@ $this->title = 'Servicio técnico MAC';
                 </div>
                 <div class="m-3">
                     <ul class="list-unstyled">
-                        <li><i class="ion ion-checkmark mr-2 text-success"></i>Reparación de placa madre.</li>
-                        <li><i class="ion ion-checkmark mr-2 text-success"></i>Cambio de pantalla.</li>
-                        <li><i class="ion ion-checkmark mr-2 text-success"></i>Cambio de teclado.</li>
-                        <li><i class="ion ion-checkmark mr-2 text-success"></i>Cambio de jack de carga.</li>
-                        <li><i class="ion ion-checkmark mr-2 text-success"></i>Cambio de batería.</li>
-                        <li><i class="ion ion-checkmark mr-2 text-success"></i>Cambio de disco duro.</li>
-                        <li><i class="ion ion-checkmark mr-2 text-success"></i>Aumento de memoria RAM.</li>
+                        <li><strong><i class="ion ion-checkmark mr-2 text-success"></i>Reparación de placa madre.</strong></li>
+                        <li><strong><i class="ion ion-checkmark mr-2 text-success"></i>Cambio de pantalla.</strong></li>
+                        <li><strong><i class="ion ion-checkmark mr-2 text-success"></i>Cambio de teclado.</strong></li>
+                        <li><strong><i class="ion ion-checkmark mr-2 text-success"></i>Cambio de jack de carga.</strong></li>
+                        <li><strong><i class="ion ion-checkmark mr-2 text-success"></i>Cambio de batería.</strong></li>
+                        <li><strong><i class="ion ion-checkmark mr-2 text-success"></i>Cambio de disco duro.</strong></li>
+                        <li><strong><i class="ion ion-checkmark mr-2 text-success"></i>Aumento de memoria RAM.</strong></li>
                     </ul>
                 </div>
                 <p class="text-center">TODOS nuestros trabajos son GARANTIZADOS</p>
