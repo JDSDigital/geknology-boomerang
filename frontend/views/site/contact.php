@@ -12,7 +12,7 @@ $this->title = 'Contacto';
 ?>
 
 <section class="slice--offset-top parallax-section parallax-section-lg" style="background-image: url(./images/backgrounds/slider/img-44.jpg); background-position: bottom center;">
-    <span class="mask mask-dark--style-1"></span>
+    <span class="mask mask-dark--style-2"></span>
     <div class="container">
         <div class="row">
             <div class="col-12">

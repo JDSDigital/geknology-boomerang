@@ -14,7 +14,7 @@ $this->title = 'Geknology Techno Services';
             <!-- Slide -->
             <div class="swiper-slide" data-swiper-autoplay="8000">
                 <div class="slice holder-item holder-item-light has-bg-cover bg-size-cover" style="background-image: url(./images/support/home-st.jpg); background-position: center bottom;">
-                    <span class="mask bg-dark alpha-7"></span>
+                    <span class="mask mask-dark--style-2"></span>
                     <div class="container d-flex align-items-center no-padding">
                         <div class="col">
                             <div class="row row-cols-xs-spaced align-items-center py-4 text-center">

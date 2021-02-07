@@ -8,6 +8,7 @@ $this->title = 'Servicio técnico MAC';
 
 <!-- Banner -->
 <section class="slice-xl page-title border-bottom has-bg-cover bg-size-cover" style="background-image: url(../images/banners/banner-mac.jpg);">
+    <span class="mask mask-dark--style-2"></span>
     <div class="container mask-container">
         <div class="row justify-content-end">
             <div class="col-md-6 text-center">
