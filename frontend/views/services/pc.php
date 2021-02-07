@@ -51,9 +51,12 @@ $this->title = 'Servicio técnico PC';
                         <div class="col-lg-6">
                             <div class="block block-image-holder">
                                 <div class="block-image">
-                                    <a href="#">
-                                        <img src="../images/support/mant-logica.jpg" class="img-fluid img-center">
-                                    </a>
+                                <?=
+                                    Html::a(
+                                        Html::img("../images/support/mant-logica.jpg", ['class' => 'img-fluid img-center']),
+                                        ['services/contact', 'id' => 1]
+                                    )
+                                ?>
                                 </div>
                             </div>
                         </div>
@@ -69,6 +72,9 @@ $this->title = 'Servicio técnico PC';
                                 </ul>
                                 <p>Si desea mantenimiento a su sistema actual, éste es el servicio que usted necesita.</p>
                                 <p class="font-weight-bold">Costo servicio: $19.900</p>
+                                <?=
+                                    Html::a('CONTRATAR', ['services/contact', 'id' => 1], ['class' => 'btn btn-styled btn-primary btn-block'])
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -89,9 +95,12 @@ $this->title = 'Servicio técnico PC';
                         <div class="col-lg-6 order-lg-2 ml-lg-auto">
                             <div class="block block-image-holder">
                                 <div class="block-image">
-                                    <a href="#">
-                                        <img src="../images/support/formateo.jpg" class="img-fluid img-center">
-                                    </a>
+                                    <?=
+                                        Html::a(
+                                            Html::img("../images/support/formateo.jpg", ['class' => 'img-fluid img-center']),
+                                            ['services/contact', 'id' => 2]
+                                        )
+                                    ?>
                                 </div>
                             </div>
                         </div>
@@ -107,6 +116,9 @@ $this->title = 'Servicio técnico PC';
                                 </ul>
                                 <p>Si su sistema presenta lentitud, tarda en partir o en responder como debe, ésta opción es la mejor. Instalar su sistema nuevo, limpio y sin problemas.</p>
                                 <p class="font-weight-bold">Costo servicio: $24.900</p>
+                                <?=
+                                    Html::a('CONTRATAR', ['services/contact', 'id' => 2], ['class' => 'btn btn-styled btn-primary btn-block'])
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -127,9 +139,12 @@ $this->title = 'Servicio técnico PC';
                         <div class="col-lg-6">
                             <div class="block block-image-holder">
                                 <div class="block-image">
-                                    <a href="#">
-                                        <img src="../images/support/mant-termica-pc.jpg" class="img-fluid img-center">
-                                    </a>
+                                    <?=
+                                        Html::a(
+                                            Html::img("../images/support/mant-termica-pc.jpg", ['class' => 'img-fluid img-center']),
+                                            ['services/contact', 'id' => 3]
+                                        )
+                                    ?>
                                 </div>
                             </div>
                         </div>
@@ -145,6 +160,9 @@ $this->title = 'Servicio técnico PC';
                                 </ul>
                                 <p>Cuando el equipo sufre de recalentamiento, FPS bajos, sonidos extraños en ventiladores o está en un entorno de mucho polvo, necesita mantención térmica ¡URGENTE!.</p>
                                 <p class="font-weight-bold">Costo PC: $29.900 - Notebook: $39.900</p>
+                                <?=
+                                    Html::a('CONTRATAR', ['services/contact', 'id' => 3], ['class' => 'btn btn-styled btn-primary btn-block'])
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -165,9 +183,12 @@ $this->title = 'Servicio técnico PC';
                         <div class="col-lg-6 order-lg-2 ml-lg-auto">
                             <div class="block block-image-holder">
                                 <div class="block-image">
-                                    <a href="#">
-                                        <img src="../images/support/bisagras.jpg" class="img-fluid img-center">
-                                    </a>
+                                    <?=
+                                        Html::a(
+                                            Html::img("../images/support/bisagras.jpg", ['class' => 'img-fluid img-center']),
+                                            ['services/contact', 'id' => 4]
+                                        )
+                                    ?>
                                 </div>
                             </div>
                         </div>
@@ -181,6 +202,9 @@ $this->title = 'Servicio técnico PC';
                                 <p>Si la carcasa de tu notebook se abre o levanta al abrir y cerrar el equipo, éste es el servicio para ti.</p>
                                 <p class="font-weight-bold">¡TODOS nuestros trabajos son garantizados!</p>
                                 <p class="font-weight-bold">Costo servicio: $19.900</p>
+                                <?=
+                                    Html::a('CONTRATAR', ['services/contact', 'id' => 4], ['class' => 'btn btn-styled btn-primary btn-block'])
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -201,9 +225,12 @@ $this->title = 'Servicio técnico PC';
                         <div class="col-lg-6">
                             <div class="block block-image-holder">
                                 <div class="block-image">
-                                    <a href="#">
-                                        <img src="../images/support/ssd.jpg" class="img-fluid img-center">
-                                    </a>
+                                    <?=
+                                        Html::a(
+                                            Html::img("../images/support/ssd.jpg", ['class' => 'img-fluid img-center']),
+                                            ['services/contact', 'id' => 5]
+                                        )
+                                    ?>
                                 </div>
                             </div>
                         </div>
@@ -219,6 +246,9 @@ $this->title = 'Servicio técnico PC';
                                 <p>¿Quieres optimizar tu equipo actual?</p>
                                 <p>Instalando un SSD te garantizamos: Aumento de rapidez, menos consumo de energía, menos producción de calor, menos pero, más resistente y sin ruidos.</p>
                                 <p class="font-weight-bold">Costo servicio: $59.900</p>
+                                <?=
+                                    Html::a('CONTRATAR', ['services/contact', 'id' => 5], ['class' => 'btn btn-styled btn-primary btn-block'])
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -280,7 +310,7 @@ $this->title = 'Servicio técnico PC';
                     </ul>
                 </div>
                 <p class="text-center">TODOS nuestros trabajos son GARANTIZADOS</p>
-                <img src="../images/w6.jpg" class="img-fluid img-center mb-3">
+                <img src="../images/support/otras-reparaciones.jpg" class="img-fluid img-center mb-3">
                 <p class="text-center">Trabajamos con TODAS las marcas del mercado.</p>
                 <!-- marcas -->
                 <div class="row">

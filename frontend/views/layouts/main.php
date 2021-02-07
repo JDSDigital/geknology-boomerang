@@ -139,7 +139,7 @@ AppAsset::register($this);
                         <?= Html::a('Sobre Nosotros', ['site/about'], ['class' => 'nav-link']); ?>
                     </li>
                     <li class="nav-item <?= (Yii::$app->controller->action->id == 'rating') ? 'active' : '' ?>">
-                        <?= Html::a('¡Califícanos!', ['site/index'], ['class' => 'nav-link']); ?>
+                        <?= Html::a('¡Califícanos!', ['https://g.page/r/CTYShFmrZ8uoEBE/review'], ['class' => 'nav-link']); ?>
                     </li>
                 </ul>
 

@@ -51,9 +51,12 @@ $this->title = 'Servicio técnico MAC';
                         <div class="col-lg-6">
                             <div class="block block-image-holder">
                                 <div class="block-image">
-                                    <a href="#">
-                                        <img src="../images/support/formateo-mac.jpg" class="img-fluid img-center">
-                                    </a>
+                                    <?=
+                                        Html::a(
+                                            Html::img("../images/support/formateo-mac.jpg", ['class' => 'img-fluid img-center']),
+                                            ['services/contact', 'id' => 6]
+                                        )
+                                    ?>
                                 </div>
                             </div>
                         </div>
@@ -69,6 +72,9 @@ $this->title = 'Servicio técnico MAC';
                                 </ul>
                                 <p>Si su sistema presenta lentitud, tarda en partir o no responde como debe, ésta opción es la mejor. Instalar un sistema nuevo, limpio y sin problemas.</p>
                                 <p class="font-weight-bold">Costo servicio: $34.900</p>
+                                <?=
+                                    Html::a('CONTRATAR', ['services/contact', 'id' => 6], ['class' => 'btn btn-styled btn-secondary btn-block'])
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -89,9 +95,12 @@ $this->title = 'Servicio técnico MAC';
                         <div class="col-lg-6 order-lg-2 ml-lg-auto">
                             <div class="block block-image-holder">
                                 <div class="block-image">
-                                    <a href="#">
-                                        <img src="../images/support/mant-termica-mac.jpg" class="img-fluid img-center">
-                                    </a>
+                                    <?=
+                                        Html::a(
+                                            Html::img("../images/support/mant-termica-mac.jpg", ['class' => 'img-fluid img-center']),
+                                            ['services/contact', 'id' => 7]
+                                        )
+                                    ?>
                                 </div>
                             </div>
                         </div>
@@ -106,6 +115,9 @@ $this->title = 'Servicio técnico MAC';
                                 </ul>
                                 <p>Cuando el equipo sufre de recalentamiento, FPS bajos, sonidos extraños en ventiladores o está en un entorno de mucho polvo, necesita mantención térmica ¡URGENTE!.</p>
                                 <p class="font-weight-bold">Costo servicio: $39.900</p>
+                                <?=
+                                    Html::a('CONTRATAR', ['services/contact', 'id' => 7], ['class' => 'btn btn-styled btn-secondary btn-block'])
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -126,9 +138,12 @@ $this->title = 'Servicio técnico MAC';
                         <div class="col-lg-6">
                             <div class="block block-image-holder">
                                 <div class="block-image">
-                                    <a href="#">
-                                        <img src="../images/support/cambio-hdd-mac.jpg" class="img-fluid img-center">
-                                    </a>
+                                    <?=
+                                        Html::a(
+                                            Html::img("../images/support/cambio-hdd-mac.jpg", ['class' => 'img-fluid img-center']),
+                                            ['services/contact', 'id' => 8]
+                                        )
+                                    ?>
                                 </div>
                             </div>
                         </div>
@@ -143,6 +158,9 @@ $this->title = 'Servicio técnico MAC';
                                 </ul>
                                 <p>¿Quieres optimizar tu equipo actual? Instalando un SSD te garantizamos: Aumento de rapidez, menos consumo de energía, menos producción de calor, menos peso, más resistente y sin ruidos.</p>
                                 <p class="font-weight-bold">Costo servicio: $69.900</p>
+                                <?=
+                                    Html::a('CONTRATAR', ['services/contact', 'id' => 8], ['class' => 'btn btn-styled btn-secondary btn-block'])
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -204,6 +222,7 @@ $this->title = 'Servicio técnico MAC';
                     </ul>
                 </div>
                 <p class="text-center">TODOS nuestros trabajos son GARANTIZADOS</p>
+                <img src="../images/support/otras-reparaciones.jpg" class="img-fluid img-center mb-3">
             </div>
         </div>
         <!-- / Sidebar -->
